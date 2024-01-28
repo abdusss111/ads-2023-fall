@@ -1,0 +1,86 @@
+
+1. 2 BETWEEN
+2. 1. NOT NULL
+3. 4.SELECT, FROM, WHERE
+4. 2.The provided SQL query result will display the name and discipline of students whose grade is less than 50.
+5. 1. Mike should be written in quotes 'Mike'
+6. 2 INSERT INTO products (name, price) VALUES ('Smartphone', 700)
+7. 2 3, 20
+8. 4.They will be filled with NULLs.
+9. 1. INSERT INTO price_averages (average_price) SELECT AVG(price) FROM products;
+10. 4.It returns the total guest cost for all facilities.
+11. 4.Itself.
+12. 1. One-to-One
+13. 1. CHAR(n) will truncate the stored string to n characters, while VARCHAR(n) will not store more than n characters but will not truncate the extr1.
+14. 1. SELECT student_name FROM students JOIN student_courses ON students.student_id = student_courses.student_id JOIN courses ON courses.course_id = student_courses.course_id WHERE courses.course_name = 'Databases';
+15. 4.Many-to-Many
+16. 3. Employee
+17. 1. The PRIMARY KEY constraint ensures that all values in a column are distinct.
+18. 3. SELECT name, MAX(salary) FROM employees;
+19. 1. To enforce data integrity by establishing a link between two tables.
+20. 4.To allow one role to inherit privileges from another role.
+21. 1. Adds overhead to data manipulation operations like insert, update, and delete.
+22. 2 Only once, regardless of the number of rows affected by the triggering event.
+23. 3. It is where the logic of the block is implemente4
+24. 3. A special kind of stored procedure that runs automatically when certain events occur in a database table.
+25. 2 A user that has access to all commands and features.
+26. 1. Stored procedures can execute multiple SQL statements in a single call, allowing for complex operations.
+27. 1. An inconsistent state of the row.
+28. 1. Enhanced security by restricting access to certain columns.
+29. 3. An index created on a function or expression involving one or more columns.
+30. 4.BEFORE and AFTER
+31. 2 To perform a series of related operations as a single, atomic unit.
+32. 4.An index created on a function or expression involving one or more columns.
+33. 3. LOCAL CHECK OPTION applies the check only to the current view, whereas CASCADED CHECK OPTION applies it to all underlying views.
+34. 1. Encountering an error during a transaction.
+35. 3. Stored procedures can execute multiple SQL statements in a single call, allowing for complex operations.
+36. 2 Both input and output.
+37. 3. It grants the role the ability to initiate streaming replication.
+38. 4.The original value before T1's update.
+39. 3. A partial index.
+40. 3. Blocks nested within another block.
+41. 2 Multicolumn Index.
+42. 2 Materialized views store the result set of the query.
+43. 3. To allow one role to inherit privileges from another role.
+44. 4.Yes, if it uses JOIN clauses in its definition.
+45. 3. The update operation will fail.
+46. 4.When data distribution is uneven, and the query focuses on a subset of dat1.
+47. 2 An index that only includes some of the rows of a table.
+48. 1. BEFORE and AFTER.
+49. 4.A set of SQL statements executed sequentially.
+50. 2 By granting the role the CREATEDB privilege.
+51. 4.A view simplifies how users work with dat1.
+52. 2 To perform a series of related operations as a single, atomic unit.
+53. 4.To automatically update a last_modified column to the current timestamp.
+54. 2 By providing faster access to rows that satisfy the expression.
+55. 3. It saves the changes made in the transaction to the database.
+56. 1. When the data in the table is frequently update4
+57. 3. Triggers are automatically executed in response to an event, while stored procedures are manually invoke4
+58. 1. An index created on a function or expression involving one or more columns.
+59. 4.ALTER ROLE.
+60. 1. An isolated, atomic unit of work.
+61. 2 SAVEPOINT is used to mark a point in a transaction, while ROLLBACK is used to undo changes.
+62. 1. Variables in the outer block are not accessible from the subblock.
+63. 1. Both input and output
+64. 2 It physically stores the result set.
+65. 4.A view updates data in its underlying tables when its data is modifie4
+66. 4.No, because there are multiple tables in the FROM clause.
+67. 3. Variables in the subblock override variables with the same name in the outer block.
+68. 1. To define the procedural language used in the function.
+69. 1. To define the procedural language used in the function.
+70. 3. An entity that can own database objects and have database privileges.
+71. 2 Serializable
+72. 2 By providing faster access to rows that satisfy the expression.
+73. 2 An index that only includes some of the rows of a table.
+74. 3. BEFORE and AFTER
+75. 1. Multiple times in random order during the execution of the triggering event.
+76. 2 Serializable
+77. 1. Variables in the outer block are not accessible from the subblock.
+78. 3. A partial index.
+79. 3. No duplicate values in the indexed column.
+80. 3. Atomicity, Consistency, Isolation, Durability
+81. 1. T1 will be forced to wait until T2 commits.
+82. 1. Read Committed
+83. 1. Both input and output
+84. 3. Adds overhead to data manipulation operations like insert, update, and delete.
+85. 4.When data distribution is uneven, and the query focuses on a subset of dat1.
