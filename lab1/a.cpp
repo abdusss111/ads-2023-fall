@@ -8,7 +8,7 @@ int main(){
     deque <int> deq;
     string s;
     while(n != 0){
-        int a; 
+        int a; `
         cin >> a;
         int facto = (a  * (a - 1)) / 2 ;
         deq.push_front(a);
